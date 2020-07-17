@@ -35,4 +35,5 @@ int main(int argc, const char* argv[]) {
 
   gettimeofday(&end, NULL);
   printf("%0.6f\n", tdiff(&start, &end));
+  return 0;
 }
