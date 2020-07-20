@@ -15,3 +15,6 @@ c-compiler-optimization: main-for-order.c
 c-parallel-loops: main-parallel-loops.c
 	gcc -O3 -fcilkplus -lcilkrts main-parallel-loops.c -o main-parallel-loops.o
 	./main-parallel-loops.o
+c-tiling: main-tiling.c
+	gcc -O3 -fcilkplus -lcilkrts main-tiling.c -o main-tiling.o
+	./main-tiling.o
